@@ -1,2 +1,9 @@
 fastapi
 uvicorn[standard]
+python-dotenv
+pytz
+atproto
+python-dateutil
+langchain-google-genai
+langchain_core
+requests
