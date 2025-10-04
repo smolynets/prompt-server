@@ -11,7 +11,7 @@ gemini_api_key = os.getenv("GEMINI_API_KEY")
 
 
 def get_gemini_response(prompt):
-    llm = ChatGoogleGenerativeAI(model="gemini-1.5-flash", api_key=gemini_api_key, temperature=0.0)
+    llm = ChatGoogleGenerativeAI(model="gemini-pro-latest", api_key=gemini_api_key, temperature=0.0)
     chain = llm | StrOutputParser()
     llm_response = chain.invoke(prompt)
     return llm_response

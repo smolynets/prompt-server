@@ -1,9 +1,14 @@
 fastapi
 uvicorn[standard]
-python-dotenv
-pytz
-atproto
-python-dateutil
-langchain-google-genai
-langchain_core
-requests
+
+python-dotenv>=1.1.0
+pytz>=2025.0
+python-dateutil>=2.9.0
+requests>=2.31.0
+requests-toolbelt>=1.0.0
+
+langchain-core>=0.3.78
+langchain-google-genai==2.1.10
+google-ai-generativelanguage==0.6.18
+
+# atproto>=0.0.62
